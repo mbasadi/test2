@@ -1,0 +1,86 @@
+{
+  "author": {
+    "email": "asadi.mohammadbagher@gmail.com",
+    "name": "mbasadi",
+    "roles": [
+      "author"
+    ]
+  },
+  "description": "test2",
+  "docs": {
+    "stability": "stable"
+  },
+  "homepage": "https://github.com/mbasadi/test2.git",
+  "jsiiVersion": "1.69.0 (build f656c31)",
+  "license": "Apache-2.0",
+  "metadata": {
+    "jsii": {
+      "pacmak": {
+        "hasDefaultInterfaces": true
+      }
+    },
+    "tscRootDir": "src"
+  },
+  "name": "test2",
+  "readme": {
+    "markdown": "# replace this"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mbasadi/test2.git"
+  },
+  "schema": "jsii/0.10.0",
+  "targets": {
+    "go": {
+      "moduleName": "github.com/mbasadi",
+      "packageName": "test2"
+    },
+    "js": {
+      "npm": "test2"
+    },
+    "python": {
+      "distName": "test2",
+      "module": "test2"
+    }
+  },
+  "types": {
+    "test2.Hello": {
+      "assembly": "test2",
+      "docs": {
+        "stability": "stable"
+      },
+      "fqn": "test2.Hello",
+      "initializer": {
+        "docs": {
+          "stability": "stable"
+        }
+      },
+      "kind": "class",
+      "locationInModule": {
+        "filename": "src/index.ts",
+        "line": 1
+      },
+      "methods": [
+        {
+          "docs": {
+            "stability": "stable"
+          },
+          "locationInModule": {
+            "filename": "src/index.ts",
+            "line": 2
+          },
+          "name": "sayHello",
+          "returns": {
+            "type": {
+              "primitive": "string"
+            }
+          }
+        }
+      ],
+      "name": "Hello",
+      "symbolId": "src/index:Hello"
+    }
+  },
+  "version": "0.0.0",
+  "fingerprint": "bv/jaHXWjzJZY08f9KzpdU7VRp8Azv0Ld5fqkG7eOxI="
+}
